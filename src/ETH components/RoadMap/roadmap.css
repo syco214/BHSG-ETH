@@ -1021,10 +1021,13 @@
     background-color: black;
   }
   .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper h4 {
-    font-size: 24px;
+    font-size: 30px;
   }
   .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper h6 {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper .text-secondary {
+    font-size: 20px;
   }
 }
 @media (min-width: 48em) and (max-width: 79.99em) {

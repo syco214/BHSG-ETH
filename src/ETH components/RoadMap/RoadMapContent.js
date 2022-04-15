@@ -44,14 +44,14 @@ import "./roadmap.css";
 const data = [
   {
     id: `01`,
-    title: "An NFT Hero's Journey",
+    title: "AN NFT HERO'S JOURNEY",
     description:
       "Just like a real warrior’s armor, your Bounty Hunter’s armor will scuff and become damaged over time. <br /><br > Every Hunter will wear differently. <br /><br > Once it reaches the last level of battle damage, you may choose to don a fresh coat of an exclusive paint palette only available to those who complete the cycle. This process repeats every cycle with exclusive rewards and paint-jobs every time.",
     img: Img9,
   },
   {
     id: `02`,
-    title: "$BNTY Token.",
+    title: "$BNTY Token",
     description:
       "We’re constantly building the universe with lore filled items. In the horizon are spaceships, weapons, full bodies, and even Alien Companion NFT’s currently in the works.<br /><br > $BNTY will be used to purchase these items. $BNTY is an already running token used on the SOL branch of BHSG for auctions, raffles, and airdrops. Not only that, but we’re working on things to make $BNTY a currency that is useful for those in the entirety of the Web3 space.",
     img: TokenImage,
@@ -161,10 +161,17 @@ export default function Art() {
                                       <div class="content-new">
                                         <div class="copy-wrapper">
                                           <div class="copy">
-                                            <p class="paragraph">{item.id}</p>
-                                            <h4 class="MuiTypography-h5">
-                                              {item.title}
-                                            </h4>
+                                              <MotionInView variants={varFadeInUp}>
+                                                <Typography
+                                                  variant="subtitle1"
+                                                  className="text-secondary"
+                                                >
+                                                  {item.id}
+                                                </Typography>
+                                              </MotionInView>
+                                              <MotionInView variants={varFadeInUp}>
+                                                <Typography variant="h4">{item.title}</Typography>
+                                              </MotionInView>
                                             <div class="lines">
                                               <Typography
                                                 variant="subtitle1"
