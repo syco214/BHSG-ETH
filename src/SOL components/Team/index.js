@@ -18,11 +18,11 @@ export const TeamContainer = styled.div`
       height: 1000px;
 
     @media screen and (max-width: 640px) {
-        height: 2000px;
+      height: 2000px;
 
     @media screen and (max-width: 480px) {
       font-size: 32px;
-      height: 1870px;
+      height: 1880px;
     }
 `;
 export const TeamBg = styled.div`
@@ -64,6 +64,8 @@ function Cards() {
   return (
     <TeamContainer id="team">
       <TeamBg>
+        <ParticleBackground></ParticleBackground>
+        <ParticleBackground></ParticleBackground>
         <ParticleBackground></ParticleBackground>
         <ParticleBackground></ParticleBackground>
         <ParticleBackground></ParticleBackground>
