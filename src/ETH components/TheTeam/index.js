@@ -35,17 +35,17 @@ const membersData = [
   },
   {
     name: "Evan",
-    position: "Community Manager",
+    position: "Marketing",
     cover: Member5,
   },
   {
     name: "Jude",
-    position: "Community Manager",
+    position: "Lead Moderator",
     cover: Member6,
   },
   {
     name: "Zach",
-    position: "Community Manager",
+    position: "Lead Moderator",
     cover: Member7,
   },
 ];
