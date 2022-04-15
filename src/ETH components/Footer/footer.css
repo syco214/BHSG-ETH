@@ -1,0 +1,16 @@
+.footer-main {
+  padding: 50px 0px;
+}
+.mt-3 {
+  margin-top: 20px;
+}
+.footer-nav a {
+  display: block;
+  color: #fff;
+  font-family: Saira;
+  font-weight: 600;
+  color: #f8f8f8;
+  font-size: 16px;
+  text-align: right;
+  padding: 10px 0;
+}

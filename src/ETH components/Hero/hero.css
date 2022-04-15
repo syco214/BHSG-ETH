@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Punc-Regular;
+  src: url("../../assets/Fonts/Punc-Regular.otf");
+}
+@font-face {
+  font-family: Punc-Bold;
+  src: url("../../assets/Fonts/Punc-Bold.otf");
+}
+.eth-hero-main {
+  position: relative;
+  color: black;
+  font-family: Punc-Regular;
+}
+.eth-hero-main .logo {
+  position: absolute;
+
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.eth-hero-main .bg {
+  height: 800px;
+  width: 100%;
+}
+.mobile-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+.eth-hero-main .hero {
+  /* min-width: 100%; */
+  width: 100%;
+  object-fit: cover;
+}
+.eth-hero-main .toolbar button:hover {
+  color: white;
+}
+.text-secondary {
+  color: #8c8c8c;
+}
+@media screen and (min-width: 1500px) {
+  .eth-hero-main .hero {
+    /* min-width: 100%; */
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .eth-hero-main .logo {
+    top: 8%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -10%);
+  }
+  #home {
+    top: 48%;
+  }
+  #home .MuiToolbar-root {
+    display: contents;
+    text-align: center;
+  }
+  #home .MuiToolbar-root a button {
+    max-width: 168px;
+    margin-bottom: 10px;
+  }
+}

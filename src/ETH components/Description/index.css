@@ -1,0 +1,35 @@
+.description .MuiTypography-body2 {
+  max-width: 330px;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: large;
+}
+
+.description img {
+  object-fit: cover;
+}
+.description {
+  position: relative;
+}
+@media screen and (max-width: 576px) {
+  .description img {
+    height: 300px;
+  }
+  .description {
+    background-color: #000;
+  }
+  .description .MuiTypography-body2 {
+    position: relative !important;
+    transform: none !important;
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    left: 0 !important;
+    top: 0 !important;
+    max-width: 360px;
+  }
+}

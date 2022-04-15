@@ -1,0 +1,2039 @@
+.roadmap-main {
+  position: relative;
+}
+.roadmap-main img {
+  object-fit: cover;
+}
+.roadmap-main h2 {
+  font-family: Punc-Regular;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero {
+  font-family: LeatherBody "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  padding: 0;
+  overflow: hidden;
+  background: #f0eeec;
+  color: #383838;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+  > .block-bg,
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+  > .block-content {
+  max-width: 134rem;
+  margin: 0 auto;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+  > .block-content {
+  padding: 0;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+  > .block-bg {
+  overflow: visible;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+  > .block-bg
+  .dbm-displayblock-img {
+  position: absolute;
+  top: 38%;
+  right: -50%;
+  bottom: -4%;
+  left: -50%;
+  width: auto !important;
+  min-width: 0;
+  max-width: none;
+  min-height: 0;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+  > .block-bg
+  .dbm-displayblock-img
+  .dbv3-lazy-loader--img--target {
+  background-position: 65% bottom;
+  background-size: contain;
+}
+@media (min-width: 48em) {
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+    > .block-bg
+    .dbm-displayblock-img {
+    bottom: 0;
+  }
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+    > .block-bg
+    .dbm-displayblock-img
+    .dbv3-lazy-loader--img--target {
+    background-position: 52% bottom;
+  }
+}
+@media (min-aspect-ratio: 1000000/1000000) {
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+    > .block-bg
+    .dbm-displayblock-img {
+    top: 8%;
+    right: -10%;
+    bottom: 0;
+    left: 34%;
+  }
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero
+    > .block-bg
+    .dbm-displayblock-img
+    .dbv3-lazy-loader--img--target {
+    background-position: 52% bottom;
+  }
+}
+@media (max-aspect-ratio: 1000000/1000001) {
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-hero--leather--hero {
+    margin-bottom: -3px;
+    border-bottom: 3px solid currentColor;
+  }
+}
+.dbm-displayblock--leather--hero {
+  min-height: 86vh;
+}
+.dbm-printed-skins-display-teaser .dbm-displayblock--leather--hero {
+  min-height: 93vh;
+  min-height: calc(100vh - var(--header-height, 7vh));
+}
+.dbm-displayblock--leather--hero .content-new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: auto;
+  height: 40%;
+  padding: 2.5em 4em 0;
+  gap: 3em;
+}
+.dbm-displayblock--leather--hero .title {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin: 0 0 0.2em;
+}
+.dbm-displayblock--leather--hero .dbm-displayblock-img {
+  flex: 1 1 0;
+  max-width: 7em;
+  height: 0;
+}
+.dbm-displayblock--leather--hero .mat-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-displayblock--leather--hero .mat-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-displayblock--leather--hero .mat-btn > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+}
+.dbm-displayblock--leather--hero .mat-btn .label-txt {
+  text-transform: uppercase;
+}
+.dbm-displayblock--leather--hero .mat-btn:not(.teaser-btn) {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+@media (min-aspect-ratio: 1000000/1000000) {
+  .dbm-displayblock--leather--hero .content-new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: auto;
+    bottom: 0;
+    width: 45%;
+    height: auto;
+    gap: 6vh;
+    padding: 4vh;
+  }
+  .dbm-displayblock--leather--hero .dbm-displayblock-img {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: min(14em, 40%);
+    height: auto;
+  }
+}
+@media (min-aspect-ratio: 1000000/1000000) and (min-width: 140em) {
+  .dbm-displayblock--leather--hero .content-new {
+    width: 25%;
+    min-width: 30em;
+  }
+  .dbm-displayblock--leather--hero .dbm-displayblock-img {
+    max-width: 16em;
+  }
+}
+
+.dbm-printed-skins-display-blocks--leather {
+  font-family: LeatherBody "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  background: #f0eeec;
+  color: #383838;
+}
+.dbm-printed-skins-display-blocks--leather .dbv3-block > .block-content {
+  max-width: 134rem;
+}
+@media (min-width: 55em) {
+  .dbm-printed-skins-display-blocks--leather .dbv3-block {
+    /* padding: 0 10%; */
+  }
+}
+.dbm-printed-skins-display-blocks--leather .dbm-displayblock .content-new {
+  max-width: 100%;
+}
+.dbm-printed-skins-display-blocks--leather .dbm-displayblock .title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-blocks--leather .dbm-displayblock .lines {
+  font-family: LeatherBody "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+}
+.dbm-printed-skins-display-blocks--leather .dbm-displayblock .line {
+  line-height: inherit;
+}
+.dbm-printed-skins-display-blocks--leather .blocks-section--inner {
+  isolation: isolate;
+  contain: content;
+  background-color: #fff;
+}
+:where(.dbm-printed-skins-display-blocks--leather .blocks-section--inner)
+  .dbv3-block {
+  overflow: hidden;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbv3-block--dbm-printed-skins-display--buy-bar {
+  border: 0 solid currentColor;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  background: #f0eeec;
+  box-shadow: none;
+  color: #383838;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbv3-block--dbm-printed-skins-display--buy-bar
+  > .block-content {
+  padding: 0.5em 0;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .copy {
+  font-size: 0.85em;
+  flex-grow: 0;
+}
+@media screen and (min-width: 20em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .copy {
+    font-size: calc(0.85em + 0.4 * ((100vw - 20em) / 28));
+  }
+}
+@media screen and (min-width: 48em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .copy {
+    font-size: 1.25em;
+  }
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .description {
+  max-width: 60ch;
+  margin: 1em 0 0;
+  font-size: 1.34em;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  display: none;
+  margin: 0 auto;
+  font-size: 0.75em;
+}
+@media (min-width: 140em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .description {
+    font-size: 1.5em;
+  }
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .timer {
+  order: 10;
+  margin: 0;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .dbt-countdown
+  .countdown-items {
+  margin: 0 -0.15em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .dbt-countdown
+  .countdown-item {
+  min-width: 1.4em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .actions {
+  margin: 0;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .mat-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .mat-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .mat-btn
+  > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+  min-width: 4.5rem;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-buy-bar
+  .mat-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+@media (max-width: 39.99em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .dbt-countdown {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 55em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .copy,
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .actions {
+    min-width: 12em;
+  }
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .title {
+    display: none;
+  }
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .description {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.95em;
+  }
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .timer {
+    order: initial;
+    min-width: 7rem;
+    margin-right: 3rem;
+  }
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .actions {
+    margin-left: 2em;
+    text-align: right;
+  }
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-buy-bar
+    .mat-btn
+    > .inner {
+    padding-right: 4em;
+    padding-left: 4em;
+  }
+}
+
+.dbm-printed-skins-display-entrypoints-block--leather .block-title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-left: -0.05em;
+  margin-top: 0;
+}
+@media screen and (min-width: 23em) {
+  .dbm-printed-skins-display-entrypoints-block--leather .block-title {
+    font-size: calc(2.5em + 7.5 * ((100vw - 23em) / 192));
+  }
+}
+@media screen and (min-width: 215em) {
+  .dbm-printed-skins-display-entrypoints-block--leather .block-title {
+    font-size: 10em;
+  }
+}
+.dbm-printed-skins-display-entrypoints-block--leather .entrypoints-item {
+  max-width: 20em;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .pui-entrypoint-card {
+  border: 2px solid currentColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  border-radius: 1.5rem;
+  background: #fff;
+  box-shadow: none;
+  color: #383838;
+  text-align: center;
+}
+.dbm-printed-skins-display-entrypoints-block--leather
+  .pui-entrypoint-card::before {
+  border-color: currentColor;
+  box-shadow: 0 0 0 2px currentColor;
+}
+.dbm-printed-skins-display-entrypoints-block--leather
+  .pui-entrypoint-card::after {
+  left: 50%;
+}
+@media (min-width: 100em) {
+  .dbm-printed-skins-display-entrypoints-block--leather
+    .pui-entrypoint-card::after {
+    content: none;
+  }
+}
+.dbm-printed-skins-display-entrypoints-block--leather .entrypoint-card-img {
+  margin: 0.5em auto;
+  background: #fff;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .card-title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  order: -1;
+  margin: 0;
+  font-size: 1.75em;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .card-description {
+  align-items: inherit;
+  color: black;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .description-item::after {
+  left: 50%;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .mat-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .mat-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .mat-btn > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+}
+.dbm-printed-skins-display-entrypoints-block--leather .mat-btn .label-txt {
+  text-transform: uppercase;
+}
+@media (min-width: 80em) {
+  .dbm-printed-skins-display-entrypoints-block--leather .entrypoints-list {
+    gap: 4em;
+  }
+}
+
+@supports (contain: content) {
+  .dbv3-block--dbm-displayblock-simple-feature--leather-detail-a,
+  .dbv3-block--dbm-displayblock-simple-feature--leather-detail-b {
+    overflow: visible;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a {
+  min-height: 90vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-left: -0.05em;
+}
+@media screen and (min-width: 23em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .title {
+    font-size: calc(2.5em + 7.5 * ((100vw - 23em) / 192));
+  }
+}
+@media screen and (min-width: 215em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .title {
+    font-size: 10em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .tagline {
+  max-width: 60ch;
+  margin: 1em 0 0;
+  font-size: 1.34em;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .tagline {
+    font-size: 1.5em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .lines {
+  margin-top: 5vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .line {
+  max-width: 60ch;
+  margin-top: 1em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 100em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .line {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .line {
+    font-size: 1em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .copy-wrapper {
+  margin: 4vh 0 8vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .image-wrapper {
+  position: relative;
+  max-width: 35em;
+  margin: 0 auto;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .image-wrapper::before {
+  content: "";
+  display: block;
+  padding-top: 150%;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-a .dbm-displayblock-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: auto !important;
+  min-width: 0;
+  max-width: none;
+  mix-blend-mode: darken;
+}
+@media (min-width: 100em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-a {
+    padding: 8vh 0 0;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .content-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .copy-wrapper {
+    flex-basis: 40%;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .image-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .lines {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    width: 100vw;
+    max-width: 65ch;
+    margin: 8vh 0 0;
+    overflow: hidden;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .line {
+    width: 80%;
+    max-width: none;
+    max-width: 45ch;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a .line:first-child {
+    position: relative;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-a
+    .line:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    right: 100%;
+    width: 50vw;
+    margin-right: 1.5em;
+    border-top: 1px solid currentColor;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b {
+  min-height: 90vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-left: -0.05em;
+}
+@media screen and (min-width: 23em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .title {
+    font-size: calc(2.5em + 7.5 * ((100vw - 23em) / 192));
+  }
+}
+@media screen and (min-width: 215em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .title {
+    font-size: 10em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .tagline {
+  max-width: 60ch;
+  margin: 1em 0 0;
+  font-size: 1.34em;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .tagline {
+    font-size: 1.5em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .lines {
+  margin-top: 5vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .line {
+  max-width: 60ch;
+  margin-top: 1em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 100em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .line {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .line {
+    font-size: 1em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .copy-wrapper {
+  margin: 4vh 0 8vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .image-wrapper {
+  position: relative;
+  max-width: 35em;
+  margin: 0 auto;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .image-wrapper::before {
+  content: "";
+  display: block;
+  padding-top: 150%;
+}
+.dbm-displayblock.dbm-displayblock--leather-detail-b .dbm-displayblock-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: auto !important;
+  min-width: 0;
+  max-width: none;
+  mix-blend-mode: darken;
+}
+@media (min-width: 100em) {
+  .dbm-displayblock.dbm-displayblock--leather-detail-b {
+    padding: 8vh 0 0;
+    color: #383838;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .content-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .copy-wrapper {
+    flex-basis: 40%;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .image-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .lines {
+    display: flex;
+    flex-direction: column;
+    color: #383838 !important;
+    align-items: flex-end;
+    width: 100%;
+    width: 100vw;
+    max-width: 65ch;
+    margin: 8vh 0 0;
+    overflow: hidden;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .line {
+    width: 80%;
+    max-width: none;
+    max-width: 45ch;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b .line:first-child {
+    position: relative;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-detail-b
+    .line:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    right: 100%;
+    width: 50vw;
+    margin-right: 1.5em;
+    border-top: 1px solid currentColor;
+  }
+}
+@media (min-width: 100em) {
+  dbm-displayblock
+    dbm-displayblock-simple-feature
+    dbm-displayblock--leather-patina
+    .dbm-displayblock.dbm-displayblock--leather-detail-b
+    .content-new {
+    flex-direction: row-reverse;
+  }
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-displayblock
+  .dbm-displayblock-img--leather-detail-black {
+  bottom: -5%;
+  left: -139%;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-displayblock
+  .dbm-displayblock-img--leather-detail-brown {
+  top: -13%;
+  right: -118%;
+  bottom: -10%;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-displayblock
+  .dbm-displayblock-img--leather-detail-tan {
+  left: -90%;
+}
+
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-gallery {
+  padding: 0;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-gallery
+  > .block-content {
+  max-width: 134rem;
+  padding: 0;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery .content-new {
+  width: 100%;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery .title {
+  display: none;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery .feature-assets {
+  display: grid;
+  grid-auto-columns: minmax(0, 100%);
+  grid-template-areas: "s0 tt" "s1 tt" "ww ww" "s2 s3";
+  width: 100%;
+}
+@media (min-width: 51em) {
+  .dbm-displayblock.dbm-displayblock--leather-gallery .feature-assets {
+    grid-template-areas: "s0 s1 tt" "ww ww tt" "s2 s3 tt";
+    grid-template-areas: "ww ww ww" "s0 tt s2" "s1 tt s3";
+  }
+}
+@media (min-width: 80em) {
+  .dbm-displayblock.dbm-displayblock--leather-gallery .feature-assets {
+    grid-template-areas: "s0 tt ww ww" "s1 tt s2 s3";
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery .dbm-displayblock-img {
+  min-width: 100%;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img::before {
+  content: "";
+  display: block;
+  height: 0;
+  padding-top: 100%;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbv3-lazy-loader--img--spacer {
+  display: none;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbv3-lazy-loader--img--target {
+  background-size: cover;
+  background-position: left;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--w {
+  grid-area: ww;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--w::before {
+  padding-top: 50%;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--t {
+  grid-area: tt;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--t::before {
+  padding-top: 200%;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--0 {
+  grid-area: s0;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--1 {
+  grid-area: s1;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--2 {
+  grid-area: s2;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--3 {
+  grid-area: s3;
+}
+.dbm-displayblock.dbm-displayblock--leather-gallery
+  .dbm-displayblock-img--leather-gallery-img--4 {
+  grid-area: s4;
+}
+
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-patina {
+  --p: 0;
+  --img-slice: 0;
+  position: relative;
+  z-index: -1;
+  overflow: visible;
+}
+@media (min-width: 80em) {
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-patina {
+    margin-bottom: -100vh;
+  }
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-patina
+  > .block-content {
+  display: block;
+  min-height: 400vh;
+  padding: 0;
+}
+@media (min-width: 80em) {
+  .dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-patina
+    > .block-content {
+    margin-bottom: 100vh;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-patina {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 0;
+  top: 0;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-left: -0.05em;
+}
+@media screen and (min-width: 23em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .title {
+    font-size: calc(2.5em + 7.5 * ((100vw - 23em) / 192));
+  }
+}
+@media screen and (min-width: 215em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .title {
+    font-size: 10em;
+  }
+}
+/* .dbm-displayblock.dbm-displayblock--leather-patina .tagline {
+  max-width: 60ch;
+  margin: 1em 0 0;
+  font-size: 1.34em;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .tagline {
+    font-size: 1.5em;
+  }
+} */
+.dbm-displayblock.dbm-displayblock--leather-patina .lines {
+  margin-top: 5vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .line {
+  max-width: 60ch;
+  margin-top: 1em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 100em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .line {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .line {
+    font-size: 1em;
+  }
+}
+@media (min-width: 80em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina {
+    margin-bottom: -100vh;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .content-new {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper {
+  align-self: center;
+  width: 65%;
+}
+@media only screen and (max-width: 1280px) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .content-new {
+    flex-direction: row-reverse;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper {
+    width: 82%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .content-new {
+    flex-direction: column-reverse;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper {
+    width: 100%;
+    padding: 1.5em 8% 2.5em;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy {
+    padding: 0 !important;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .image-wrapper {
+    margin-bottom: 0px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .dbm-displayblock.dbm-displayblock--leather-patina
+    .feature-assets
+    .dbm-displayblock-img {
+    background-color: #c4d3dc;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .dbm-displayblock-img {
+    background-color: #c4d3dc;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper h4 {
+    font-size: 24px;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper h6 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 48em) and (max-width: 79.99em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper {
+    padding-top: 3.5em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .copy {
+  /* padding: 5vh 0 3vh; */
+  padding: 2em 4em 2.5em;
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .title em {
+  display: block;
+  margin-left: 0.1515151515em;
+  font-size: 0.33em;
+  font-style: normal;
+  text-transform: none;
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .image-wrapper {
+  position: relative;
+  flex-grow: 1;
+  margin-bottom: 4em;
+  background-color: black;
+}
+@media (min-width: 48em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .image-wrapper {
+    /* margin: 5.5em 0 0.5em; */
+    margin: 0;
+    width: 100%;
+    /* min-width: 612px; */
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-patina .dbm-displayblock-img {
+  --from: 0;
+  --to: 1;
+  --img-p: calc(0 + (var(--p) - var(--from)) * 1 / (var(--to) - var(--from)));
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  min-width: 100%;
+}
+.dbm-displayblock.dbm-displayblock--leather-patina
+  .feature-assets
+  .dbm-displayblock-img {
+  overflow: hidden;
+  opacity: calc(var(--img-p) - 0.5);
+  will-change: opacity;
+}
+@media (min-width: 80em) {
+  .dbm-displayblock.dbm-displayblock--leather-patina .content-new {
+    flex-direction: row-reverse;
+    gap: 1vw;
+  }
+}
+@media (min-width: 100em) {
+  /* .dbm-displayblock.dbm-displayblock--leather-patina .copy-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+  } */
+  .dbm-displayblock.dbm-displayblock--leather-patina .title {
+    position: absolute;
+    left: 0;
+    align-self: center;
+    justify-self: center;
+  }
+  .dbm-displayblock.dbm-displayblock--leather-patina .lines {
+    max-width: 40ch;
+  }
+  /* .dbm-displayblock.dbm-displayblock--leather-patina .image-wrapper {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 20%;
+    bottom: 0;
+    left: 20%;
+  } */
+}
+
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-shipping {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+}
+.dbv3-block.dbv3-block.dbv3-block--dbm-displayblock-simple-feature--leather-shipping
+  > .block-content {
+  display: block;
+  width: 0;
+  margin: 0;
+  padding: 0.5em 0;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping {
+  display: block;
+  visibility: hidden;
+  min-width: 100vw;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping.is-ready {
+  visibility: visible;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .copy,
+.dbm-displayblock.dbm-displayblock--leather-shipping .lines,
+.dbm-displayblock.dbm-displayblock--leather-shipping .dbm-lib-banner-tail {
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .copy {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  -webkit-animation: linear infinite leather-shipping-anim;
+  animation: linear infinite leather-shipping-anim;
+  -webkit-animation-duration: 100s;
+  animation-duration: 100s;
+  will-change: transform;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .title {
+  display: none;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .line {
+  max-width: 60ch;
+  margin-top: 1em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media (min-width: 100em) {
+  .dbm-displayblock.dbm-displayblock--leather-shipping .line {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 140em) {
+  .dbm-displayblock.dbm-displayblock--leather-shipping .line {
+    font-size: 1em;
+  }
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .line::after {
+  content: "Â·";
+  padding: 0 0.75em;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .dbm-lib-banner-tail {
+  width: 0.001px;
+  overflow: visible;
+  background: green;
+}
+.dbm-displayblock.dbm-displayblock--leather-shipping .image-wrapper {
+  display: none;
+}
+@-webkit-keyframes leather-shipping-anim {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes leather-shipping-anim {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .description-line {
+  max-width: 60ch;
+  margin-top: 1em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 100em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-product-request
+    .description-line {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 140em) {
+  .dbm-printed-skins-display-blocks--leather
+    .dbm-printed-skins-display-product-request
+    .description-line {
+    font-size: 1em;
+  }
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper {
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  margin: 0 0 1em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper
+  .mat-input-label {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper
+  .mat-input-el {
+  border: 2px solid currentColor;
+  padding: 0.7em 1em 0.8em;
+  overflow: hidden;
+  border-radius: 1.5em;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper
+  .mat-input-el:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper
+  .mat-input-el::-moz-placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper
+  .mat-input-el:-ms-input-placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-input-wrapper
+  .mat-input-el::placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+  margin-top: 0.75em;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-btn
+  > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+}
+.dbm-printed-skins-display-blocks--leather
+  .dbm-printed-skins-display-product-request
+  .mat-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+
+.dbv3-block--dbm-printed-skins-display-countdown-block--leather-countdown {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background: #f0eeec;
+  color: #383838;
+}
+.dbv3-block--dbm-printed-skins-display-countdown-block--leather-countdown
+  > .block-content {
+  position: static;
+  padding: 0;
+  padding-top: 2px;
+}
+@media (min-width: 51em) {
+  .dbv3-block--dbm-printed-skins-display-countdown-block--leather-countdown
+    > .block-content {
+    padding-top: 0;
+  }
+}
+@media (min-width: 140em) {
+  .dbv3-block--dbm-printed-skins-display-countdown-block--leather-countdown
+    > .block-content {
+    padding-top: 6vh;
+  }
+}
+.dbm-displayblock--leather-countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  max-width: 107.2rem;
+  min-height: 94vh;
+  margin: 0 auto;
+  color: #f0eeec;
+  text-align: center;
+}
+.dbm-displayblock--leather-countdown .countdown-display {
+  --progress: 0;
+  --progress-float: calc(var(--progress) / 100);
+}
+.dbm-displayblock--leather-countdown .countdown-display .dbt-countdown {
+  letter-spacing: -0.075em;
+  font-weight: bold;
+}
+.dbm-displayblock--leather-countdown
+  .countdown-display
+  .dbt-countdown:not(.countdown-is-initialized)
+  .countdown,
+.dbm-displayblock--leather-countdown
+  .countdown-display
+  .dbt-countdown.countdown-is-initialized
+  .date {
+  display: none;
+}
+.dbm-displayblock--leather-countdown
+  .countdown-display
+  .dbt-countdown
+  .countdown-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dbm-displayblock--leather-countdown
+  .countdown-display
+  .dbt-countdown
+  .countdown-item {
+  display: block;
+  position: relative;
+  min-width: 1.34em;
+  text-align: center;
+}
+.dbm-displayblock--leather-countdown
+  .countdown-display
+  .dbt-countdown
+  .countdown-item:not(:last-child)::after {
+  content: ":";
+  position: absolute;
+  left: 100%;
+  width: 1em;
+  margin-left: -0.5em;
+}
+.dbm-displayblock--leather-countdown .countdown-display .progress-canvas {
+  display: none;
+}
+.dbm-displayblock--leather-countdown .countdown-display .label {
+  max-width: 60ch;
+  margin: 1em 0 0;
+  font-size: 1.34em;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+@media (min-width: 140em) {
+  .dbm-displayblock--leather-countdown .countdown-display .label {
+    font-size: 1.5em;
+  }
+}
+.dbm-displayblock--leather-countdown .countdown-display .timer {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-left: -0.05em;
+  line-height: 1;
+}
+@media screen and (min-width: 23em) {
+  .dbm-displayblock--leather-countdown .countdown-display .timer {
+    font-size: calc(2.5em + 7.5 * ((100vw - 23em) / 192));
+  }
+}
+@media screen and (min-width: 215em) {
+  .dbm-displayblock--leather-countdown .countdown-display .timer {
+    font-size: 10em;
+  }
+}
+.dbm-displayblock--leather-countdown .countdown-display .countdown {
+  margin-left: -0.1em;
+}
+.dbm-displayblock--leather-countdown
+  .countdown-display
+  .dbt-countdown
+  .countdown-item {
+  min-width: 1.75em;
+  letter-spacing: 0;
+}
+.dbm-displayblock--leather-countdown .countdown-assets {
+  --ltr-offset: 1.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  right: auto;
+  left: 50%;
+  width: 100vw;
+  max-width: calc(134rem + (var(--ltr-offset) * 2));
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+.dbm-displayblock--leather-countdown .dbm-displayblock-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  min-width: 100%;
+}
+.dbm-displayblock--leather-countdown
+  .dbm-displayblock-img
+  .dbv3-lazy-loader--img--target {
+  margin: var(--ltr-offset);
+  border-radius: 1.75rem;
+  background-color: #383838;
+  background-size: cover;
+}
+@media (max-aspect-ratio: 1000000/1000001) {
+  .dbm-displayblock--leather-countdown
+    .dbm-displayblock-img--leather-countdown-square {
+    display: block;
+  }
+}
+@media (min-aspect-ratio: 1000000/1000000) {
+  .dbm-displayblock--leather-countdown
+    .dbm-displayblock-img--leather-countdown-wide {
+    display: block;
+  }
+}
+@media (max-width: 50.99em) {
+  .dbm-displayblock--leather-countdown .countdown-display {
+    position: relative;
+  }
+  .dbm-displayblock--leather-countdown .countdown-display::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 3px;
+    height: 100vh;
+    margin-left: -1.5px;
+    background: currentColor;
+  }
+}
+@media (min-width: 51em) {
+  .dbm-displayblock--leather-countdown {
+    align-items: flex-end;
+    text-align: left;
+  }
+  .dbm-displayblock--leather-countdown .label {
+    padding-left: 0.66em;
+  }
+  .dbm-displayblock--leather-countdown .timer {
+    position: relative;
+  }
+  .dbm-displayblock--leather-countdown .timer::before {
+    content: "";
+    position: absolute;
+    top: 0.1em;
+    right: 100%;
+    width: 100vw;
+    height: 3px;
+    margin-right: 0.5em;
+    background: currentColor;
+  }
+  .dbm-displayblock--leather-countdown .countdown-assets {
+    --ltr-offset: 3em;
+  }
+}
+
+.dbm-printed-skins-display-entrypoint-block--leather::after {
+  content: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather {
+  font-size: 1em;
+  min-height: 66vh;
+}
+@media screen and (min-width: 55em) {
+  .dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather {
+    font-size: calc(1em + 0.5 * ((100vw - 55em) / 160));
+  }
+}
+@media screen and (min-width: 215em) {
+  .dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather {
+    font-size: 1.5em;
+  }
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-title-h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-title-h2 {
+  max-width: 60ch;
+  margin: 1em 0 0;
+  font-size: 1.34em;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  margin-top: 0.25em;
+  margin-bottom: 0.75em;
+}
+@media (min-width: 140em) {
+  .dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+    .pui-title-h2 {
+    font-size: 1.5em;
+  }
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section {
+  margin: 1.5em 0 0;
+  padding: 0.5em 0 0;
+  border: 0;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section-title {
+  margin: 0;
+  padding: 0;
+  opacity: 0.66;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section-body {
+  margin: 0;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .pui-device-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  gap: 0.75em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper {
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  flex: 1 1 6em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper
+  .mat-input-label {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper
+  .mat-input-el {
+  border: 2px solid currentColor;
+  padding: 0.7em 1em 0.8em;
+  overflow: hidden;
+  border-radius: 1.5em;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper
+  .mat-input-el:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper
+  .mat-input-el::-moz-placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper
+  .mat-input-el:-ms-input-placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .mat-input-wrapper
+  .mat-input-el::placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--devices
+  .pui-device-select-wrapper {
+  flex: 2 1 12em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--designs
+  .form-section-body {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn {
+  width: 100%;
+  max-width: none;
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn
+  > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+  border: 2px solid currentColor;
+  position: relative;
+  height: 3em;
+  padding: 0;
+  background: #f0eeec;
+  color: #383838;
+  font-size: 1em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn
+  .print-design-preview
+  > .inner {
+  padding-left: 2.75em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn
+  .print-design-preview
+  > .inner::before {
+  content: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn
+  .print-design-preview
+  > .inner::after {
+  visibility: visible;
+  top: 50%;
+  left: 0;
+  margin-left: 0.75em;
+  background: #fff;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #383838;
+  color: transparent;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn.is-selected
+  .print-design-preview
+  > .inner::after {
+  background: #383838;
+  color: #fff;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-design-btn
+  .label {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .print-design-preview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: none;
+  margin: 0;
+  border-radius: inherit;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .print-design-preview
+  > .inner {
+  box-shadow: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .print-design-preview
+  .dbv3-lazy-loader--img--target {
+  will-change: unset;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-section--addons
+  .form-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-item {
+  margin: 0;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+  border: 2px solid currentColor;
+  border: 2px solid currentColor;
+  padding: 0.7em 1em 0.8em;
+  overflow: hidden;
+  border-radius: 1.5em;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  overflow: visible;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner::-moz-placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner:-ms-input-placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner::placeholder {
+  padding: 0 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner {
+  padding-left: 2.75em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner::before {
+  content: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  > .inner::after {
+  visibility: visible;
+  top: 50%;
+  left: 0;
+  margin-left: 0.75em;
+  background: #fff;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #383838;
+  color: transparent;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn.is-selected
+  > .inner::after {
+  background: #383838;
+  color: #fff;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-btn
+  .description {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-price-display {
+  font-size: 1em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-price-display
+  .prices {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  line-height: 1;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-price-display
+  .regular-price {
+  margin: 0.15em 0 0;
+  font-size: 0.66em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-addon-actions {
+  padding: 0.5em 0 0;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-more-info-panel-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-more-info-panel-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-more-info-panel-btn
+  > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+  padding-right: 0;
+  padding-left: 0;
+  background: none;
+  color: inherit;
+  font-size: 0.9em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-more-info-panel-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .pui-more-info-panel-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-footer-head
+  .mat-btn {
+  border-radius: 10em;
+  color: inherit;
+  text-decoration: none;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-footer-head
+  .mat-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-footer-head
+  .mat-btn
+  > .inner {
+  padding-right: 4em;
+  padding-left: 4em;
+  border-radius: inherit;
+  background: #383838;
+  box-shadow: none;
+  color: #f0eeec;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .form-footer-head
+  .mat-btn
+  .label-txt {
+  text-transform: uppercase;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .dbm-printed-skins-display-customizer-more-info-panel {
+  background: rgba(56, 56, 56, 0.75);
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .dbm-printed-skins-display-customizer-more-info-panel
+  .more-info-panel__content {
+  border: 2px solid #383838;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 2em 2em;
+  overflow: hidden;
+  border-radius: 1.75rem;
+  background: #f0eeec;
+  color: #383838;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .dbm-printed-skins-display-customizer-more-info-panel
+  .more-info-panel__title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .dbm-printed-skins-display-customizer-more-info-panel
+  .more-info-panel__figure {
+  order: 10;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer.dbm-printed-skins-display-customizer--leather
+  .dbm-printed-skins-display-customizer-more-info-panel
+  .more-info-panel__description-line {
+  margin: 0.5em 0 1em;
+}
