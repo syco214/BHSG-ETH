@@ -3,7 +3,10 @@
 }
 .roadmap-main img {
   object-fit: cover;
+  height: 800;
+  width: 100%;
 }
+
 .roadmap-main h2 {
   font-family: Punc-Regular;
   line-height: 1.5;

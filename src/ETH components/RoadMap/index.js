@@ -17,8 +17,8 @@ export default function index() {
     <div id="roadmap">
       <MotionInView variants={varFadeInUp}>
         <div className="roadmap-main">
-          <Parallax translateY={[0, 20]}>
-          <img alt="hell" src={RoadMapBg} width="100%" height={800} />
+          <Parallax translateY={[0, 15]}>
+          <img alt="hell" src={RoadMapBg} />
           </Parallax>
           <Typography variant="h2" color="text.primary">
             tHe ROaDmAp iS SimPle
