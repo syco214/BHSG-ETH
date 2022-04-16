@@ -78,7 +78,7 @@
     transition: opacity 400ms;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     pointer-events: none;
   }
 }
@@ -123,7 +123,7 @@
     left: 0;
   }
   .dbm-slidestack-block__img .dbv3-lazy-loader--img--target {
-    background-size: contain;
+    background-size: cover;
   }
   .dbm-slidestack-block__title {
     font-size: 2.5rem;

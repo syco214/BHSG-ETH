@@ -6,7 +6,7 @@ import { Typography } from "@material-ui/core";
 
 // animation
 import { varFadeInUp, MotionInView } from "../Animate";
-import { Parallax } from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 // ____________
 import RoadMapContent from "./RoadMapContent";
@@ -16,11 +16,16 @@ export default function index() {
   return (
     <div id="roadmap">
       <MotionInView variants={varFadeInUp}>
-        <div className="roadmap-main">
-          <Parallax translateY={[0, 15]}>
-          <img alt="hell" src={RoadMapBg} />
-          </Parallax>
-          <Typography variant="h2" color="text.primary">
+        <div className="roadmap-main" height={400}>
+          <ParallaxBanner 
+            layers={[
+              {
+                image: RoadMapBg,
+                speed: 20,
+              }
+            ]} style={{aspectRatio:'3/1'}}>
+          </ParallaxBanner>
+          <Typography variant="h2" className="h2" color="text.primary">
             tHe ROaDmAp iS SimPle
           </Typography>
         </div>

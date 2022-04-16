@@ -2,8 +2,7 @@
 import { Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 // file
-import WearVideo from "../../assets/Videos/wear.mp4";
-import Logo from "../../assets/Images/Black Logo.svg";
+import Logo from "../../assets/Images/logo.png";
 import TokenImage from "../../assets/Images/token.png";
 import VentureImage from "../../assets/Images/venture.png";
 import CommunityImage from "../../assets/Images/community.png";
@@ -286,23 +285,15 @@ export default function Art() {
                           />
                         )}
                         {i === 0 ? (
-                          <video
-                            autoPlay
-                            muted
-                            loop
-                            className="hero"
-                            resizeMode="contain"
-                            style={{ height: "100%", width: "100%" }}
-                          >
-                            <source src={WearVideo} type="video/mp4" />
-                          </video>
+                          <>
+                          </>
                         ) : (
-                          <link
-                            href={item.img}
-                            class="dbv3-lazy-loader--img--target"
-                            title="dbrand Grip Case - Clicky Buttons"
-                            style={{ height: "50%", marginTop: "12.5vw" }}
-                          />
+                            <link
+                              href={item.img}
+                              class="dbv3-lazy-loader--img--target"
+                              title="dbrand Grip Case - Clicky Buttons"
+                              style={{ height: "50%", marginTop: "12.5vw"}}
+                            />
                         )}
                       </div>
                     </div>

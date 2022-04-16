@@ -41,10 +41,17 @@
 .text-secondary {
   color: #8c8c8c;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1600px) {
   .eth-hero-main .hero {
     /* min-width: 100%; */
     height: 1000px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .eth-hero-main .hero {
+    /* min-width: 100%; */
+    height: 800px;
   }
 }
 @media screen and (max-width: 768px) {
