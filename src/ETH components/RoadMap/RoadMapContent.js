@@ -51,8 +51,7 @@ const data = [
   {
     id: `02`,
     title: "$BNTY Token",
-    description:
-      "We’re constantly building the universe with lore filled items. In the horizon are spaceships, weapons, full bodies, and even Alien Companion NFT’s currently in the works.<br /><br > $BNTY will be used to purchase these items. $BNTY is an already running token used on the SOL branch of BHSG for auctions, raffles, and airdrops. Not only that, but we’re working on things to make $BNTY a currency that is useful for those in the entirety of the Web3 space.",
+    description:"Earn $BNTY by staking your Bounty Hunter and participate in an already running economy. <br/><br >$BNTY can be used to join raffles & auctions, of which we have been holding with upwards of $20,000 worth of prizes.<br/><br >$BNTY will eventually be used to purchase upgrades for your Bounty Hunter, and BHSG Merchandise.<br/><br >$BNTY can also be used on our Solana branch to buy weapons, ships, and other assets in store for the BHSG Solana branch.",
     img: TokenImage,
   },
   {
