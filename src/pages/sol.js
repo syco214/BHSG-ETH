@@ -10,8 +10,10 @@ import Carousel from "../SOL components/Carousel";
 import Cards from "../SOL components/Team"
 import { homeObjOne } from "../SOL components/Info/Data";
 import { homeObjTwo } from "../SOL components/Future/Data";
+import { homeObjThree } from "../SOL components/Token/Data";
 import Footer from "../layouts/Footer";
 import Video from "../SOL components/Video";
+import Token from "../SOL components/Token";
 
 const Sol = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +34,7 @@ const Sol = () => {
             <Map />
             <Video />
             <Cards />
+            <Token {...homeObjThree}/>
             <Lore {...homeObjTwo}/>
             <Footer/>
         </div>

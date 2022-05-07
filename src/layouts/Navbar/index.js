@@ -64,10 +64,10 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="roadmap" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Roadmap</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="lore" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Lore</NavLinks>
+                            <NavLinks to="team" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Team</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="team" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Team</NavLinks>
+                            <NavLinks to="$BNTY" smooth={true} duration={500} spy={true} exact='true' offset={-80}>$BNTY</NavLinks>
                         </NavItem>
                         <NavItem>
                             <Link href="https://staking.bountyhunterspaceguild.com/" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Staking</Link>

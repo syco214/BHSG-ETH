@@ -76,7 +76,7 @@ function Carousel() {
         settings: {
           infinite: true,
           lazyLoad: true,
-          autoplay: 3000,
+          autoplay: 30,
           speed: 300,
           slidesToShow: 1,
           centerMode: true,

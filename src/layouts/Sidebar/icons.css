@@ -30,4 +30,43 @@ a.medium {
 a.gitbook {
     color: white;
     padding: 0 10px 0 10px;
+}
+
+a.social2 {
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+
+a.cmc {
+    color: white;
+    padding: 20px 0px 0px 30px;
+    transform: translateY(5px); 
+    font-size: 20px;
 }   
+
+a.gecko{
+    color: white;
+    padding: 20px 20px 0 0px;
+    transform: translateY(-10px); 
+    font-size: 17px;
+}  
+
+a.solana{
+    color: white;
+    padding: 20px 20px 0 0px;
+    font-size: 27px;
+    transform: translateY(2px); 
+}  
+
+a.gecko:hover {
+    color: #FFE81F;
+}
+
+a.cmc:hover {
+    color: #FFE81F;
+}
+
+a.solana:hover {
+    color: #FFE81F;
+}

@@ -11,14 +11,14 @@ export const TeamContainer = styled.div`
     height: 1400px;
     position: relative;
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1200px) {
       height: 1100px;
 
     @media screen and (max-width: 768px) {
-      height: 1000px;
+      height: 2500px;
 
     @media screen and (max-width: 640px) {
-      height: 2000px;
+      height: 1700px;
 
     @media screen and (max-width: 480px) {
       font-size: 32px;
@@ -99,7 +99,7 @@ function Cards() {
                 <CardItem
                   src={require("../../assets/Images/Sage.png").default}
                   text="Lead Developer. Engineering graduate"
-                  text2="Big blockchain tech advocate, enjoys playing with futures in his free time."
+                  text2="Blockchain tech advocate, believer of Solana and its future."
                   label="SAGE"
                 />
                 <CardItem
