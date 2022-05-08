@@ -17,28 +17,28 @@ const data = [
     id: `01`,
     title: "10,000",
     description:
-      "Handcrafted bounty hunters inspired by history, culture and the greatest Sci-Fi universes on the planet Earth.",
+      "Handcrafted Bounty Hunters inspired by history, culture and the greatest Sci-Fi universes on the planet Earth.",
     img: ArtImage,
   },
   {
     id: `02`,
     title: "ART",
     description:
-      "Each bounty hunter and its traits will be rendered in complete 3D. No 2D overlays here. Ready for metaverse application.",
+      "Each Bounty Hunter and its traits will be rendered in complete 3D. No 2D overlays here. Ready for metaverse application.",
     img: Art2Image,
   },
   {
     id: `03`,
     title: "Robust Silhouettes",
     description:
-      "Piece of art that will be recognized even through shadows alone. Iconicity is our key.",
+      "Pieces of art that will be recognized even through shadows alone. Iconicity is our key.",
     img: RobustImage,
   },
   {
     id: `04`,
     title: "Metaverse",
     description:
-      "The ultimate vision of BHSG it to see Bounty Hunters walking arround the metaverse, flying their ships, and looking badass. ",
+      "The ultimate vision of BHSG is to see Bounty Hunters walking around the metaverse, flying their ships, and looking badass. ",
     img: MetaverseImage,
   },
 ];

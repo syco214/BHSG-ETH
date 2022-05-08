@@ -98,13 +98,13 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={require("../../assets/Images/Sage.png").default}
-                  text="Lead Developer. Engineering graduate"
-                  text2="Blockchain tech advocate, believer of Solana and its future."
+                  text="Lead Developer, Technical Director"
+                  text2="Engineering Graudate, and an advocate of blockchain technology."
                   label="SAGE"
                 />
                 <CardItem
                   src={require("../../assets/Images/Alex.png").default}
-                  text="Experienced copywriter, Social media manager, and Advertiser."
+                  text="Social Media Manager, Community Manager."
                   text2="Makes words go brrr."
                   label="ALEX"
                 />

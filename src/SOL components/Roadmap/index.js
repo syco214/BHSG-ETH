@@ -150,7 +150,7 @@ const Map = () => {
           </div>
           <div className="box3" data-aos="fade-up">
             <div className="h2">Spaceships</div>
-            <div className="p">Q2 2022</div>
+            <div className="p">Q3 2022</div>
             <div className="p">
               Ships will be completely modular and unique. Bounty Hunters will
               be able to showcase their NFT’s within their ships. V1 will be a
@@ -160,7 +160,7 @@ const Map = () => {
           </div>
           <div className="box4" data-aos="fade-up">
             <div className="h2">Real life 3D Busts</div>
-            <div className="p">Q2 2022</div>
+            <div className="p">Q3 2022</div>
             <div className="p">
               Busts/Models will be made purchasable in our merch store. These
               will also be given out to members of the community who contribute
@@ -179,7 +179,7 @@ const Map = () => {
           </div>
           <div className="box6" data-aos="fade-up">
             <div className="h2">Merchandise Store</div>
-            <div className="p">Q3 2022</div>
+            <div className="p">Q4 2022</div>
             <div className="p">
               A Merchandise Store for holders will be released, details on how
               to claim these purchase these items will released later on. The
@@ -189,7 +189,7 @@ const Map = () => {
           </div>
           <div className="box7" data-aos="fade-up">
             <div className="h2">GEN 2</div>
-            <div className="p">Q4 2022</div>
+            <div className="p">2023</div>
             <div className="p">
               The Gen 2 installment of Solaris is in the works.
               <br />
