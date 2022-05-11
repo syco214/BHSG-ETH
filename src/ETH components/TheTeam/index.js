@@ -9,6 +9,9 @@ import Member4 from "../../assets/Images/Alex.png";
 import Member5 from "../../assets/Images/Evan.png";
 import Member6 from "../../assets/Images/2.png";
 import Member7 from "../../assets/Images/Zach.png";
+import Member8 from "../../assets/Images/Foxtrot.png";
+import IconButton from "@material-ui/core/IconButton";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import { varFadeInUp, varFadeInDown, MotionInView } from "../Animate";
 
 // member data
@@ -17,36 +20,49 @@ const membersData = [
     name: "Jaga",
     position: "Artist",
     cover: Member1,
+    twitter: "https://twitter.com/sclptor",
   },
   {
     name: "Sage",
     position: "Coder",
     cover: Member2,
+    twitter: "https://twitter.com/BHSG_Sage",
   },
   {
     name: "ETHAN",
     position: "Visionary",
     cover: Member3,
+    twitter: "https://twitter.com/BHSG_Ethan",
   },
   {
     name: "ALEX",
     position: "Community Manager",
     cover: Member4,
+    twitter: "https://twitter.com/BHSG_Alex",
   },
   {
     name: "Evan",
     position: "Marketing",
     cover: Member5,
+    twitter: "https://twitter.com/Omnidegen",
   },
   {
     name: "Jude",
     position: "Lead Moderator",
     cover: Member6,
+    twitter: "https://twitter.com/jude_nft",
   },
   {
     name: "Zach",
     position: "Lead Moderator",
     cover: Member7,
+    twitter: "https://twitter.com/ZaccKRZA",
+  },
+  {
+    name: "Foxtrot",
+    position: "Adviser",
+    cover: Member8,
+    twitter: "https://twitter.com/FOXTROT_NFT",
   },
 ];
 
@@ -133,6 +149,14 @@ export default function TheTeam() {
                       className={classes.body1}
                     >
                       {v.position}
+                      <IconButton
+                          href={v.twitter}
+                          target="_blank"
+                          aria-label="icon"
+                          color="inherit"
+                          >
+                        <TwitterIcon />
+                      </IconButton>
                     </Typography>
                   </MotionInView>
                 </Box>
