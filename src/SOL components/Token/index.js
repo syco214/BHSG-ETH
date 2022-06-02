@@ -83,8 +83,8 @@ const Token = ({lightBg, headline, darkText, description, img, alt}) => {
                                 </TopLine>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <Subtitle>
-                                    <b>Total $BNTY Supply:</b> 939,018,499 $BNTY<br/>
-                                    <b>Total $BNTY Burned:</b> 17,206,501 $BNTY<br/>
+                                    <b>Total $BNTY Supply:</b> 936,024,209.42 $BNTY<br/>
+                                    <b>Total $BNTY Burned:</b> 20,200,790.58 $BNTY<br/>
                                 </Subtitle>
                                 <BtnWrap>
                                     <Button a href="https://jup.ag/swap/BNTY-SOL" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">Buy $BNTY</Button>
