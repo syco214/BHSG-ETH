@@ -9,9 +9,9 @@ const App = () => {
   return (
     <ParallaxProvider>
     <Router>
-      <Route path="/" exact component={Land} />
+      <Route path="/home" exact component={Land} />
       <Route path="/sol" exact component={Sol} />
-      <Route path="/eth" exact component={Eth} />
+      <Route path="/" exact component={Eth} />
     </Router>
     </ParallaxProvider>
   );

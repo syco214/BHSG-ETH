@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>
+                    <NavLogo to='/home' onClick={toggleHome}>
                         <Image src={logo} alt="logo" />
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
