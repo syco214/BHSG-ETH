@@ -72,7 +72,7 @@ const data = [
     id: `05`,
     title: "AND MOST IMPORTANTLY,",
     description:
-      "A future of being a Bounty Hunter and family of The Guild in the Metaverse.",
+      "A future of being a Bounty Hunter in the metaverse. <br /><br >Metaverse interoperability & integration is the ultimate goal of Bounty Hunter Space Guild. Where your Bounty Hunter, and all of the 3D assets you earn in The Guild, be it spaceships, weapons, or Sci-Fi companions; can serve you in the personalization of your Metaverse Persona.<br /><br >Full body models will be included in the package and rigged for full mobility.",
     img: Logo,
   },
 ];
