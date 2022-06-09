@@ -5,6 +5,7 @@ import RoadMap from "../ETH components/RoadMap";
 import TheTeam from "../ETH components/TheTeam";
 import Footer from "../ETH components/Footer";
 import Description from "../ETH components/Description";
+import Carousel from "../ETH components/Carousel";
 const Eth = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Eth = () => {
         <Art />
         <RoadMap />
         <Description />
+        <Carousel />
         <TheTeam />
         <Footer />
       </div>
