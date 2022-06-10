@@ -108,7 +108,7 @@ export default function ButtonAppBar() {
     <div className={classes.root} id="home">
       <AppBar className={classes.Appbar}>
         <Toolbar className="toolbar">
-          {["Home", "ROADMAP", "Collection", "Team", "Solana"].map((v, i) =>
+          {["Home", "ROADMAP", "Gallery", "Team", "Solana"].map((v, i) =>
             i === 4 ? (
               <Link
                 key={Math.random()}
