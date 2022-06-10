@@ -6,9 +6,10 @@ import Typography from "@material-ui/core/Typography";
 // animation
 // style
 import "./index.css";
+import { varFadeInUp, MotionInView } from "../Animate";
 export default function RoadMapDescription() {
   return (
-    // <MotionInView variants={varFadeInUp}>
+    <MotionInView variants={varFadeInUp}>
     <div className=" description">
       <img alt="hell" src={DescriptionBg} width="100%" height={550} />
 
@@ -28,6 +29,6 @@ export default function RoadMapDescription() {
         media entity.
       </Typography>
     </div>
-    // </MotionInView>
+    </MotionInView>
   );
 }

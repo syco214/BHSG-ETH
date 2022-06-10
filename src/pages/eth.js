@@ -6,6 +6,7 @@ import TheTeam from "../ETH components/TheTeam";
 import Footer from "../ETH components/Footer";
 import Description from "../ETH components/Description";
 import Carousel from "../ETH components/Carousel";
+import Carousel2 from "../ETH components/Carousel2";
 const Eth = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Eth = () => {
         <RoadMap />
         <Description />
         <Carousel />
+        <Carousel2 />
         <TheTeam />
         <Footer />
       </div>

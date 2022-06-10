@@ -1,14 +1,16 @@
 import React from "react";
 import Slider from "react-slick";
-import image1 from "../../assets/Images/sel1.png";
-import image2 from "../../assets/Images/sel2.png";
-import image3 from "../../assets/Images/sel3.png";
-import image4 from "../../assets/Images/sel4.png";
+import image1 from "../../assets/Images/sel5.png";
+import image2 from "../../assets/Images/sel6.png";
+import image3 from "../../assets/Images/sel7.png";
+import image4 from "../../assets/Images/sel8.png";
+import image5 from "../../assets/Images/sel9.png";
+import image6 from "../../assets/Images/sel10.png";
 import "./Carousel.css";
 import {isMobile} from 'react-device-detect';
-import {varFadeInDown, MotionInView } from "../Animate";
+import { varFadeInUp, MotionInView } from "../Animate";
 
-export default function Carousel() {
+export default function Carousel2() {
   var settings = {
     infinite: true,
     speed: 500,
@@ -16,6 +18,7 @@ export default function Carousel() {
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
+    rtl: true,
     adaptiveHeight: true
   };
   var settings2 = {
@@ -24,11 +27,12 @@ export default function Carousel() {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
+    rtl: true,
     adaptiveHeight: true
   };
   if(isMobile) {
     return (
-      <MotionInView variants={varFadeInDown}>
+      <MotionInView variants={varFadeInUp}>
       <div className="container">
         <Slider {...settings}>
           <div className="slider">
@@ -43,13 +47,19 @@ export default function Carousel() {
           <div className="slider">
           <img src={image4} height={400} width={400}></img>
           </div>
+          <div className="slider">
+          <img src={image5} height={400} width={400}></img>
+          </div>
+          <div className="slider">
+          <img src={image6} height={400} width={400}></img>
+          </div>          
         </Slider>
       </div>
       </MotionInView>
     );
     }
   return (
-    <MotionInView variants={varFadeInDown}>
+    <MotionInView variants={varFadeInUp}>
       <div className="container">
         <Slider {...settings2}>
           <div className="slider">
@@ -66,6 +76,6 @@ export default function Carousel() {
           </div>
         </Slider>
       </div>
-    </MotionInView>
+      </MotionInView>
     );
   }
